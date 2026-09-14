@@ -1,0 +1,6 @@
+[
+  {
+    "name": "com.graalvm.poc.ReflectionTesting",
+    "allPublicConstructors": true
+  }
+]

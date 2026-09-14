@@ -1,0 +1,7 @@
+target/
+.idea/
+*.iml
+
+# Local environment / secrets
+.env
+application-local.properties
