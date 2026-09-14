@@ -1,8 +1,8 @@
-\# GraalVM Native Image with Spring Boot — Hands-on POC
+﻿# GraalVM Native Image with Spring Boot â€” Hands-on POC
 
 
 
-A hands-on exploration of \*\*GraalVM Native Image with Spring Boot\*\*, focusing on how native compilation affects startup time, memory usage, application compatibility, reflection, database access, and JPA/Hibernate.
+A hands-on exploration of **GraalVM Native Image with Spring Boot**, focusing on how native compilation affects startup time, memory usage, application compatibility, reflection, database access, and JPA/Hibernate.
 
 
 
@@ -10,33 +10,33 @@ This POC was built by taking a working Spring Boot application and progressively
 
 
 
-\## What I Explored
+## What I Explored
 
 
 
-\* JVM vs GraalVM Native Image
+* JVM vs GraalVM Native Image
 
-\* Ahead-of-Time (AOT) compilation
+* Ahead-of-Time (AOT) compilation
 
-\* Native Image build and runtime behavior
+* Native Image build and runtime behavior
 
-\* Runtime reflection
+* Runtime reflection
 
-\* Reflection configuration with `reflect-config.json`
+* Reflection configuration with `reflect-config.json`
 
-\* MySQL integration with JDBC
+* MySQL integration with JDBC
 
-\* Spring Data JPA + Hibernate
+* Spring Data JPA + Hibernate
 
-\* JVM vs Native startup and memory measurements
+* JVM vs Native startup and memory measurements
 
-\* Native executable size and build-time trade-offs
+* Native executable size and build-time trade-offs
 
-\* Native Image troubleshooting and reachability metadata
+* Native Image troubleshooting and reachability metadata
 
 
 
-\## POC Journey
+## POC Journey
 
 
 
@@ -58,7 +58,7 @@ This POC was built by taking a working Spring Boot application and progressively
 
 
 
-\## Key Findings
+## Key Findings
 
 
 
@@ -88,7 +88,7 @@ This POC was built by taking a working Spring Boot application and progressively
 
 
 
-\## Documentation
+## Documentation
 
 
 
@@ -96,47 +96,47 @@ Detailed experiments and findings are documented separately:
 
 
 
-\* \[JVM Baseline](docs/01-baseline-jvm.md)
+* \[JVM Baseline](docs/01-baseline-jvm.md)
 
-\* \[GraalVM Native Image](docs/02-graalvm-native-image.md)
+* \[GraalVM Native Image](docs/02-graalvm-native-image.md)
 
-\* \[First Native Failure](docs/03-first-native-failure.md)
+* \[First Native Failure](docs/03-first-native-failure.md)
 
-\* \[Reflection Experiment](docs/04-reflection-experiment.md)
+* \[Reflection Experiment](docs/04-reflection-experiment.md)
 
-\* \[JDBC + MySQL](docs/05-jdbc-mysql.md)
+* \[JDBC + MySQL](docs/05-jdbc-mysql.md)
 
-\* \[JPA + Hibernate](docs/06-jpa-hibernate.md)
+* \[JPA + Hibernate](docs/06-jpa-hibernate.md)
 
-\* \[Results \& Comparison](docs/07-results-and-comparison.md)
+* \[Results \& Comparison](docs/07-results-and-comparison.md)
 
-\* \[Learnings \& Trade-offs](docs/08-learnings-and-tradeoffs.md)
-
-
-
-\## Tech Stack
+* \[Learnings \& Trade-offs](docs/08-learnings-and-tradeoffs.md)
 
 
 
-\* Java
-
-\* Spring Boot 4.1.1
-
-\* GraalVM Native Image 25.0.4
-
-\* Maven Wrapper 3.9.16
-
-\* MySQL 8.0.32
-
-\* Spring JDBC
-
-\* Spring Data JPA
-
-\* Hibernate ORM 7.4.5
+## Tech Stack
 
 
 
-\## Why This POC?
+* Java
+
+* Spring Boot 4.1.1
+
+* GraalVM Native Image 25.0.4
+
+* Maven Wrapper 3.9.16
+
+* MySQL 8.0.32
+
+* Spring JDBC
+
+* Spring Data JPA
+
+* Hibernate ORM 7.4.5
+
+
+
+## Why This POC?
 
 
 
@@ -144,7 +144,7 @@ The goal was not just to see whether a Spring Boot application could be compiled
 
 
 
-The goal was to understand \*\*what changes when the application moves from the JVM to a native executable\*\*, what breaks, why it breaks, how to troubleshoot it, and what trade-offs come with the approach.
+The goal was to understand **what changes when the application moves from the JVM to a native executable**, what breaks, why it breaks, how to troubleshoot it, and what trade-offs come with the approach.
 
 
 
@@ -152,7 +152,8 @@ The goal was to understand \*\*what changes when the application moves from the 
 
 
 
-\*\*Author:\*\* Anisha Rathore
+**Author:** Anisha Rathore
+
 
 
 
