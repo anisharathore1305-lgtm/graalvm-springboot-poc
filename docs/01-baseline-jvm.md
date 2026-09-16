@@ -1,6 +1,4 @@
-Got it — **only the content**, no explanation around it.
 
-````markdown
 # 01 - JVM Baseline
 
 ## Why did I start with a JVM baseline?
@@ -143,5 +141,4 @@ The next step was to take the same application and try building it as a **GraalV
 
 That would allow me to compare the two approaches using actual measurements instead of assumptions.
 
-```
 ```
