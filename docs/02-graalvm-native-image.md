@@ -276,7 +276,3 @@ The fact that the application could be compiled successfully did not necessarily
 
 That question became much more interesting in the next stage of the experiment.
 
-```
-
-Available next action: :contentReference[oaicite:0]{index=0}
-```
