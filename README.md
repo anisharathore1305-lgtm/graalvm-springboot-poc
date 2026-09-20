@@ -48,13 +48,11 @@ This POC was built by taking a working Spring Boot application and progressively
 
 4\. Test runtime reflection
 
-5\. Add MySQL + JDBC
+5\. Add Spring Data JPA + Hibernate
 
-6\. Add Spring Data JPA + Hibernate
+6\. Compare JVM and Native results
 
-7\. Compare JVM and Native results
-
-8\. Document observations, limitations, and trade-offs
+7\. Document observations, limitations, and trade-offs
 
 
 
